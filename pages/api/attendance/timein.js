@@ -60,7 +60,9 @@ export default async (req, res) => {
             })
         }
 
-        console.log("DATA-->>>" , data?.password)
+
+        
+        console.log("DATA--XXX" , data?.password)
 
         if (user) {
             if ( data.password.toString() === "12345") {
